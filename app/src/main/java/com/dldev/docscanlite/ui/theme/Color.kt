@@ -2,20 +2,25 @@ package com.dldev.docscanlite.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val DarkTeal = Color(0xFF00BFA5)
-val Teal = Color(0xFF1DE9B6)
-val LightTeal = Color(0xFF64FFDA)
+// Professional Navy Blue - Primary brand color
+val NavyDark = Color(0xFF0D47A1)      // Deep navy for emphasis
+val Navy = Color(0xFF1565C0)          // Standard navy blue
+val NavyLight = Color(0xFF1976D2)     // Lighter variant
 
-val DeepOrange = Color(0xFFFF6F00)
-val Orange = Color(0xFFFF9100)
-val LightOrange = Color(0xFFFFAB40)
+// Neutral Grays - Main UI colors (document-focused)
+val CharcoalDark = Color(0xFF212121)  // Almost black
+val CharcoalMid = Color(0xFF424242)   // Medium dark gray
+val SlateGray = Color(0xFF616161)     // Neutral gray
+val SilverGray = Color(0xFF9E9E9E)    // Light gray
 
-val DarkGray = Color(0xFF212121)
-val MediumGray = Color(0xFF424242)
-val LightGray = Color(0xFF757575)
+// Surface colors
+val SurfaceDark = Color(0xFF1C1C1E)   // Dark mode surface (iOS-like)
+val SurfaceLight = Color(0xFFF5F5F5)  // Light mode surface
+val CardLight = Color(0xFFFFFFFF)     // White cards
+val CardDark = Color(0xFF2C2C2E)      // Dark cards
 
-val SurfaceDark = Color(0xFF1E1E1E)
-val SurfaceLight = Color(0xFFF5F5F5)
-
-val ErrorRed = Color(0xFFFF5252)
-val SuccessGreen = Color(0xFF00E676)
+// Functional colors - System-like
+val CaptureYellow = Color(0xFFFFB300) // Systemski žuti capture button
+val SuccessGreen = Color(0xFF4CAF50)  // Success state
+val ErrorRed = Color(0xFFF44336)      // Error state
+val WarningAmber = Color(0xFFFF9800)  // Warning state

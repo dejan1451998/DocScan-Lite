@@ -17,55 +17,55 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Teal,
-    onPrimary = DarkGray,
-    primaryContainer = DarkTeal,
-    onPrimaryContainer = LightTeal,
-    
-    secondary = Orange,
-    onSecondary = DarkGray,
-    secondaryContainer = DeepOrange,
-    onSecondaryContainer = LightOrange,
-    
-    tertiary = LightTeal,
-    onTertiary = DarkGray,
-    
-    background = DarkGray,
+    primary = Navy,
+    onPrimary = Color.White,
+    primaryContainer = NavyDark,
+    onPrimaryContainer = NavyLight,
+
+    secondary = CaptureYellow,
+    onSecondary = CharcoalDark,
+    secondaryContainer = WarningAmber,
+    onSecondaryContainer = Color.White,
+
+    tertiary = SlateGray,
+    onTertiary = Color.White,
+
+    background = CharcoalDark,
     onBackground = Color.White,
-    
+
     surface = SurfaceDark,
     onSurface = Color.White,
-    
-    surfaceVariant = MediumGray,
-    onSurfaceVariant = Color.White,
-    
+
+    surfaceVariant = CharcoalMid,
+    onSurfaceVariant = SilverGray,
+
     error = ErrorRed,
     onError = Color.White
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = DarkTeal,
+    primary = Navy,
     onPrimary = Color.White,
-    primaryContainer = LightTeal,
-    onPrimaryContainer = DarkGray,
-    
-    secondary = DeepOrange,
-    onSecondary = Color.White,
-    secondaryContainer = LightOrange,
-    onSecondaryContainer = DarkGray,
-    
-    tertiary = Teal,
+    primaryContainer = NavyLight,
+    onPrimaryContainer = Color.White,
+
+    secondary = CaptureYellow,
+    onSecondary = CharcoalDark,
+    secondaryContainer = WarningAmber,
+    onSecondaryContainer = CharcoalDark,
+
+    tertiary = SlateGray,
     onTertiary = Color.White,
-    
+
     background = Color.White,
-    onBackground = DarkGray,
-    
+    onBackground = CharcoalDark,
+
     surface = SurfaceLight,
-    onSurface = DarkGray,
-    
+    onSurface = CharcoalDark,
+
     surfaceVariant = Color(0xFFE0E0E0),
-    onSurfaceVariant = DarkGray,
-    
+    onSurfaceVariant = CharcoalMid,
+
     error = ErrorRed,
     onError = Color.White
 )
